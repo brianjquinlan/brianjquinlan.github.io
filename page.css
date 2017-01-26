@@ -1,0 +1,24 @@
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+
+.nav-style {
+    background: transparent;
+
+}
+
+.nav-item {
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.nav-item li {
+    display: inline;
+}
+.nav-item:hover {
+    color: #bf3601;
+
+}

@@ -1,24 +1,91 @@
 
 body {
     font-family: 'Abel', sans-serif;
+    color:#404040;
+    background: #CCCBC6;
 }
 
+p {
+    font-size:20px;
+}
 
+a {
+    color: #404040;   
+}
+
+a:hover {
+    text-decoration: none;
+    color:#404040;
+}
+
+.nav {
+    color: #fff;
+} 
 .nav-style {
     background: transparent;
-
 }
 
-.nav-item {
-    font-size: 15px;
+.nav-menu {
+    font-size: 25px;
     letter-spacing: .5px;
     text-transform: uppercase;
+    list-style: none;
 }
 
-.nav-item li {
-    display: inline;
+@media (min-width:48em) {
+    .nav-menu li {
+        display: inline;
+    }
 }
 .nav-item:hover {
     color: #bf3601;
 
+}
+
+#header-bg {
+    background: url(programming.jpg) no-repeat;
+    background-size:cover;
+    height: 600px;
+    padding: 155px 22% 0px 22%;
+}
+
+#frost {
+    padding: 5px;
+    background: rgb( 192, 198, 209);
+    background: rgba(192, 198, 209, .50);
+}
+.header {
+    text-align: center;
+    color: #fff;
+}
+
+#header-blur {
+    filter: blur(2px);
+}
+
+.parallax {
+    background: url(parallax.jpg) no-repeat top center fixed;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding 0;
+    color:#fff;
+    text-align: center;
+
+}
+
+.content {
+    padding: 30px 50px 30px 50px;
+}
+
+.box-spacer {
+    padding-top: 15px;
+}
+
+.content-box {
+    background:#E9E9E9;
+    height: 100%;
+    padding-top: 10px;
+    box-shadow: -1px 2px 4px;
 }

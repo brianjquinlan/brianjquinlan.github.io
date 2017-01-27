@@ -6,53 +6,137 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	    <!-- Latest compiled and minified CSS -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 
 	    <!-- third party -->
 	    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	    <!-- project CSS -->
-        <link href="project.css" rel="stylesheet">
+        <link href="page.css" rel="stylesheet">
     </head>
     
     <body>
         <div class="m-b nav-style">
-            <nav class="navbar navbar-simple navbar-static-top">
-                <div class="containter">
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="collapse navbar-toggleable-md" id="bs-navbar-collpase-1">
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about"> About</a>
+                        <button type="button" class="navbar-toggler hidden-md-up" data-toggle="collapse" data-target="#navbar-collapse"> &#9776;
+                        </button>
+                        <div class="collapse navbar-toggleable-sm" id="navbar-collapse">
+                            <ul class="navbar-nav nav-menu">
+                                <li>
+                                    <a class="nav" href="#about"> About</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#project-1"> Projects</a>
+                                <li>
+                                    <a class="nav" href="#project-1"> Projects</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#resume"> Resume</a>
+                                <li>
+                                    <a class="nav" href="#resume"> Resume</a>
                                 </li>
                             </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
         </div>
-        <div class="containter">
-            <div class="row">
-                <h2><a name="about">About</a></h2>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                    <h2><a name="project-1"> Project 1 </a></h2>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
-                    <h2> Project 2 </h2>
-                </div>
-            <div class="row">
-                <h2><a name="resume"> Resume </a></h2>
+        
+        <div id="header-bg">
+            <div class="header" id="frost">
+                <h2> Brian Quinlan - Programmer </h2>
+                <br />
+                <h5> 708-698-1926 - bquinlan8@yahoo.com </h5>
             </div>
         </div>
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-md-12 content-box">
+                    <h1><a name="about">Latest Coding  </a></h1>
+                    <p> I have lately been working a lot with Python and 
+                        Django and my main project which can be seen below
+                        displays the work I have done with those.  
+                    </p>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="col-md-12 content-box">
+                    <h1> Typical Day </h1>
+                    <p> My day is usually starts with some coding a little 
+                        bit after I wake up followed by some Bob's burgers.
+                        (Great show).  I work nights and I like to bring a 
+                        coding book which has lately been javascript because
+                        I like to continue to learn new languages/improve on 
+                        the ones I know.  After work I either do some more 
+                        code or play some Ps4 before bed.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row box-spacer">
+                <div class="col-md-6">
+                    <div class="col-md-12 content-box">
+                    <h1> something </h1>
+                    <p> stuff </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12 content-box">
+                    <h1> something </h1>                   
+                    <p> stuff </p>    
+                    </div>           
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1> Projects I have worked on. <h1>
+        </div>
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="col-md-12 content-box">
+                    <h1><a name="project-1">Rec Sports Stats </a></h1>
+                    <p> This project was something I decided to do because I 
+                        wanted to try and get familiar with a web framework. 
+                        Because I am a big fan of Python I thought Django 
+                        would be a great framework for me to learn.  
+                    </p>
+                    <h4> Structure </h4>
+                    <p> The rec sports stats website is a site where users
+                        can sign up and create leagues, teams, and then games
+                        to keep track of the stats they accumulate.  It is 
+                        for baseball rec leagues so the gameform includes stats
+                        like homeruns, strikeouts, batting avergage, ect. These
+                        stats are taken and put into graphs and aggregated based
+                        on the league or individual team.
+                    </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="col-md-12 content-box">
+                    <h1>Senior Project</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-md-12">
+                    <h2><a name="resume">Resume </a></h2>
+                </div>
+            </div>
+        </div>
+	    <!-- Latest JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+        <!-- Tether - a requirement for Bootstrap tooltips -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
 
         <!-- Latest compiled and minified JavaScript -->
-	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+        
     </body>
 </html>
 

@@ -1,8 +1,8 @@
 
 body {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color:#404040;
-    background: #CCCBC6;
+    background: #E9E9E9;
 }
 
 p {
@@ -18,14 +18,22 @@ a:hover {
     color:#404040;
 }
 
+.nav-style {
+    color:#fff;
+    background: transparent;
+    transition: all 0.25s ease;
+}
+
 .nav {
     color: #fff;
-} 
-.nav-style {
-    background: transparent;
+}
+
+.after-header {
+    background: #000000;
 }
 
 .nav-menu {
+    padding-top: 10px;
     font-size: 25px;
     letter-spacing: .5px;
     text-transform: uppercase;
@@ -37,37 +45,32 @@ a:hover {
         display: inline;
     }
 }
-.nav-item:hover {
-    color: #bf3601;
+.nav:hover {
+    color: #C71F1F;
 
 }
 
 #header-bg {
-    background: url(programming.jpg) no-repeat;
-    background-size:cover;
+    background: url(media/programming2.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
     height: 600px;
-    padding: 155px 22% 0px 22%;
+    padding: 240px 10% 0px 10%;
 }
 
-#frost {
-    padding: 5px;
-    background: rgb( 192, 198, 209);
-    background: rgba(192, 198, 209, .50);
-}
 .header {
     text-align: center;
     color: #fff;
 }
 
-#header-blur {
-    filter: blur(2px);
+#name {
+    font-size: 60px;
 }
 
 .parallax {
-    background: url(parallax.jpg) no-repeat top center fixed;
+    background: url(media/parallax.jpg) no-repeat top center fixed;
     background-size: cover;
-    height: 300px;
-    width: 100%;
+    height: 300px;   
     margin: 0;
     padding 0;
     color:#fff;
@@ -88,4 +91,26 @@ a:hover {
     height: 100%;
     padding-top: 10px;
     box-shadow: -1px 2px 4px;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-menu {
+        font-size: 20px;
+    }
+    
+    #name {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
 }

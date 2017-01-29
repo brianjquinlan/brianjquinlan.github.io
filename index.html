@@ -9,14 +9,16 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 
 	    <!-- third party -->
-	    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet"> 
 	    <!-- project CSS -->
         <link href="page.css" rel="stylesheet">
+
+        <!-- nav color change -->
     </head>
-    
+
     <body>
-        <div class="m-b nav-style">
-            <nav class="navbar navbar-fixed-top">
+        <div class="m-b">
+            <nav id="nav" class="navbar navbar-fixed-top nav-style">
                 <div class="container-fluid">
                     <div class="row">
                         <button type="button" class="navbar-toggler hidden-md-up" data-toggle="collapse" data-target="#navbar-collapse"> &#9776;
@@ -38,51 +40,51 @@
                 </div>
             </nav>
         </div>
-        
         <div id="header-bg">
-            <div class="header" id="frost">
-                <h2> Brian Quinlan - Programmer </h2>
-                <br />
-                <h5> 708-698-1926 - bquinlan8@yahoo.com </h5>
+            <div class="header" >
+                <h1 id="name"> Brian Quinlan </h1>
+                <h2> Programmer </h2>
+                
             </div>
         </div>
-        <div class="container-fluid content">
+        <div class="container content">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="col-md-12 content-box">
-                    <h1><a name="about">Latest Coding  </a></h1>
-                    <p> I have lately been working a lot with Python and 
-                        Django and my main project which can be seen below
-                        displays the work I have done with those.  
+                    <div class="col-md-12">
+                    <h1><a name="about"> How I Got Here  </a></h1>
+                    <p> 
+                        My name is Brian Quinlan and I am recently graduated from Lewis University
+                        with degrees in Computer Science and Mathematics.  I was originally only a 
+                        math major but after taking my required computer science course I immediately
+                        knew programming was my future.
                     </p>
                     </div>
                 </div>
                 <div class="col-md-6 ">
-                    <div class="col-md-12 content-box">
-                    <h1> Typical Day </h1>
-                    <p> My day is usually starts with some coding a little 
-                        bit after I wake up followed by some Bob's burgers.
-                        (Great show).  I work nights and I like to bring a 
-                        coding book which has lately been javascript because
-                        I like to continue to learn new languages/improve on 
-                        the ones I know.  After work I either do some more 
-                        code or play some Ps4 before bed.
+                    <div class="col-md-12">
+                    <h1> Coding </h1>
+                    <p> I am most comfortable coding in Python and am fairly familiar with Java, and 
+                        PHP.  I have done projects with all of these languages most recently using 
+                        Python to create a website using Django.  I used Java in android development
+                        and PHP for my senior project with a team of other students.  In the process
+                        of these projects I have also become familiar with html, css, and javascript
+                        as well.  
                     </p>
                     </div>
                 </div>
             </div>
-            <div class="row box-spacer">
-                <div class="col-md-6">
-                    <div class="col-md-12 content-box">
-                    <h1> something </h1>
-                    <p> stuff </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                    <h1> About Myself </h1>
+                    <p> Besides Programming I enjoy playing playing piano as well as golf.  I have
+                        lately been very interested in blues styled piano which has a very interesting
+                        sound to it and allows for fun improvisation.  My Dad started me out young
+                        at golf and although during highschool I lost interest in it I have picked it
+                        back up lately.  As frustating as it may be you always want to get back out 
+                        there.
+                    </p>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="col-md-12 content-box">
-                    <h1> something </h1>                   
-                    <p> stuff </p>    
-                    </div>           
                 </div>
             </div>
         </div>
@@ -97,12 +99,12 @@
         <div class="container-fluid content">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6">
-                    <div class="col-md-12 content-box">
+                    <div class="col-md-12">
                     <h1><a name="project-1">Rec Sports Stats </a></h1>
-                    <p> This project was something I decided to do because I 
-                        wanted to try and get familiar with a web framework. 
-                        Because I am a big fan of Python I thought Django 
-                        would be a great framework for me to learn.  
+                    <p> This project was something I decided to work on 
+                        because I wanted to try and get familiar with a web 
+                        framework. Because I am a big fan of Python I thought 
+                        Django would be a great framework for me to learn.  
                     </p>
                     <h4> Structure </h4>
                     <p> The rec sports stats website is a site where users
@@ -116,7 +118,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6">
-                    <div class="col-md-12 content-box">
+                    <div class="col-md-12">
                     <h1>Senior Project</h1>
                     </div>
                 </div>
@@ -127,8 +129,12 @@
                 </div>
             </div>
         </div>
+
 	    <!-- Latest JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        
+        <!-- local javascript -->
+        <script type="text/javascript" src="page.js"></script>
 
         <!-- Tether - a requirement for Bootstrap tooltips -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>

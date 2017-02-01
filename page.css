@@ -30,33 +30,41 @@ a:hover {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: #30415D;
-    color:#fff;
+    background: #E9E9E9;
+    color:#000000;
     height: 250px;
     padding: 20px 20px 20px 20px;
     text-align: center;
 }
 
+#contact-title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
 .contact {
     display:inline-block;
     padding-top:20px;
+    font-size: 30px;
 }
 
 .contacts {
     border-radius: 6px;
-    color: #fff;
+    display:inline-block;
+    color: #000000;
     font-weight: 400;
     padding: 20px 30px;
     font-size: .5em;
-    background: #30415D;
+    background: #E9E9E9;
     margin:10px;
     font-weight: 600;
     
 }
 
 .contacts:hover {
-    color: #30415D;
-    background:#fff;
+    color: #E9E9E9;
+    background:#30415D;
     transition: all 0.75s ease;
 }
 .nav-style {
@@ -109,6 +117,16 @@ a:hover {
     font-size: 60px;
 }
 
+#projects {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color:#fff;
+}
+
+#projects-container {
+    background: #30415D;
+}
 .parallax {
     background: url(media/parallax.jpg) no-repeat top center fixed;
     background-size: cover;
@@ -146,21 +164,25 @@ a:hover {
     color: #fff;
     font-weight: 400;
     padding: 20px 30px;
+    margin: 10px;
     font-size: 1em;
     text-transform: uppercase;
     background: #6B7A8F;
-    border: 1px solid #fff;
+    border: 1px solid #E9E9E9;
+    display:inline-block;
 }
 
 .resume-button:hover {
-    background: #E9E9E9;
-    color: #1A2930;
-    border: 1px solid #6B7A8F;
+    background: #000000;
+    color: #E9E9E9;
+    border: 1px solid #E9E9E9;
     transition: all 0.75s ease;
 }
 
 #resume-buttons {
     padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0;
     text-align: center;
 
 }

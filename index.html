@@ -33,6 +33,9 @@
                                 <li>
                                     <a class="nav" href="#resume-buttons"> Resum&egrave;</a>
                                 </li>
+				<li>
+				    <a class="nav" href="#contact-title"> Contact </a>
+				</li>
                             </ul>
                         </div>
                     </div>
@@ -89,50 +92,37 @@
         
         
         <div id="projects-container" class="container-fluid">
-        <div class="container">
             <h1 id="projects"> Projects </h1>
             <div class="row content">
-                <div class="col-xs-12 col-sm-12 col-md-6 box-spacer">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 box-spacer">
                     <div id="rec-sports" class="col-md-12 content-box">
                         <h1><a id="project-1" data-toggle="modal" data-target="#first-project">
-				            Rec League Stats	
+			    Rec League Stats	
                         </a></h1>
                          
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 box-spacer">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 box-spacer">
                     <div id="senior-project" class="col-md-12 content-box">
-                    <h1>Senior Project</h1>
+                    	<h1><a data-toggle="modal" data-target="#senior-project-modal"> 
+			    Senior Project 
+			</a></h1>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 box-spacer">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 box-spacer">
                     <div id="portfolio" class="col-md-12 content-box">
-                    <h1> Portfolio Page </h2>
+                    	<h1><a data-toggle="modal" data-target="#portfolio-modal"> 
+			    Portfolio Page 
+			</a></h2>
                     </div>
                 </div>
             </div>
             <div id="resume-buttons" class="row">
                 <a class="resume-button" href="Resources/resume.pdf" download> download resum&egrave; </a>
                 <a class="resume-button" href="Resources/resume.pdf" > view resum&egrave; </a>
-                
+            </div> 
         </div>
-        </div>
 
-	
-
-	
-	<!-- Latest JQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        
-        <!-- local javascript -->
-        <script type="text/javascript" src="page.js"></script>
-
-        <!-- Tether - a requirement for Bootstrap tooltips -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-        
 	<div id="first-project" class="modal fade" tabindex="-1" role="dialog"
                             aria-labelledby="title" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -166,23 +156,102 @@
                 </div>
             </div>
         </div>
-    <footer class="footer">
-        <h1 id="contact-title"> Contact Me </h1>
-        <div class="row contact">
-            <div class="col-md-4">
-                <a class="contacts"><img src="media/icons/phone.png">
-                    708-698-1926 </a>
-            </div>
-            <div class="col-md-4">
-                <a class="contacts"><img src="media/icons/email.png">
-                    bquinlan8@yahoo.com </a>
-            </div>
-            <div class="col-md-4">
-                <a class="contacts"  href="https://github.com/brianjquinlan">
-                <img src="media/icons/github.png"> github </a>
+
+	<div id="senior-project-modal" class="modal fade" tabindex="-1" role="dialog"
+                            aria-labelledby="title" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                       
+                        <button type="button" class="close" data-dismiss="modal"
+                        arial-label="Close"><span aria-hidden="true">&times;
+                        </span></button>
+			 <h4 class="modal-title" id="title"> Senior Project </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p> 
+                        My senior project was done with a team of three other students
+			over the course of a semester.  We were required to go through 	
+			all stages of the software development processand were buidling a product 
+			for a local business.   
+                        </p>
+                        <h4> Will Grundy Medical Clinic </h4>
+                        <p> 
+                      	We built a system that was placed on Will Grundys intranet which 
+			allowed volunteers to be tracked by signing in.  It was also designed
+			so staff could enter a variety of data that they needed so it could 
+			also be tracked and then printed out on monthly/yearly reports.  Our
+			team was actually the only team that had our project complete so that 
+			Will Grundy could use it.  
+                        </p>
+			<h4> Code </h4>
+			<p>
+			This project was done on a private repo with github and if one would
+			like to see any of it feel free to get a hold of me and I will send
+			anything you would like to see.
+			</p>
+                    </div>
+            
+                </div>
             </div>
         </div>
-    </footer>
+
+	<div id="portfolio-modal" class="modal fade" tabindex="-1" role="dialog"
+                            aria-labelledby="title" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                       
+                        <button type="button" class="close" data-dismiss="modal"
+                        arial-label="Close"><span aria-hidden="true">&times;
+                        </span></button>
+			 <h4 class="modal-title" id="title"> Portfolio </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p> 
+                        This project you are currently looking at right now.  I
+			decided to make this portfolio after I graduated to
+			give employers a bette idea of who I am as a person and 
+			as a coder.  
+                        </p>		
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+
+    	<footer class="footer">
+    	    <h1 id="contact-title"> Contact Me </h1>
+            <div class="row contact">
+            	<div class="col-md-4">
+                	<a class="contacts"><img src="media/icons/phone.png">
+                    	708-698-1926 </a>
+            	</div>
+            	<div class="col-md-4">
+                	<a class="contacts"><img src="media/icons/email.png">
+                    	bquinlan8@yahoo.com </a>
+            	</div>
+            	<div class="col-md-4">
+                	<a class="contacts"  href="https://github.com/brianjquinlan">
+                	<img src="media/icons/github.png"> github </a>
+            	</div>
+            </div>
+    	</footer>
+
+	
+	<!-- Latest JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        
+        <!-- local javascript -->
+        <script type="text/javascript" src="page.js"></script>
+
+        <!-- Tether - a requirement for Bootstrap tooltips -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+        
+	
     </body>
 </html>
 

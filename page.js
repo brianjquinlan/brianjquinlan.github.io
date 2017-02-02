@@ -1,7 +1,7 @@
         
     //changes header background after getting to end of header picture
     //found on stackoverflow
-	var headerBottom = $('#header-bg').height() + 240;
+	var headerBottom = $('#header-bg').height() + 150;
 
     //on scroll
 	$(window).on('scroll', function(){

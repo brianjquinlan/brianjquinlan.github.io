@@ -65,7 +65,7 @@ a:hover {
 .contacts:hover {
     color: #E9E9E9;
     background:#30415D;
-    transition: all 0.75s ease;
+    transition: all 0.30s ease;
 }
 .nav-style {
     color:#fff;
@@ -107,7 +107,17 @@ a:hover {
     background-position: center top;
     background-size: cover;
     height: 550px;
-    padding: 240px 10% 0px 10%;
+    padding: 150px 10% 0px 10%;
+}
+
+.portrait {
+    background: url(media/headshot.jpg);
+    transform: rotate(90deg);
+    border-radius: 150px;
+    margin: 0 auto;
+    background-size:cover; 
+    height: 250px;
+    width: 250px;
 }
 
 .header {
@@ -128,6 +138,10 @@ a:hover {
 
 #projects-container {
     background: #30415D;
+}
+
+#project-1, #senior-project, #portfolio {
+    color: #E9E9E9;
 }
 
 #project-1, #senior-project, #portfolio:hover {
@@ -156,16 +170,20 @@ a:hover {
 
 .content-box {
     background:#E9E9E9;
-    height: 250px;
+    height: 300px;
     max-width:500px;
     padding-top: 10px;
     box-shadow: -2px 2px 4px;
 }
 
-.rec {
-    display: inline-block;
-    max-width:100%;
-    max-height:100%;
+#rec-sports {
+    background: url(media/rec-sports-showcase.png);
+    background-size:cover;
+}
+
+#sen-project {
+    background: url(media/portfolio-showcase.png);
+    background-size:cover;
 }
 
 .resume-button {
@@ -185,7 +203,7 @@ a:hover {
     background: #000000;
     color: #E9E9E9;
     border: 1px solid #E9E9E9;
-    transition: all 0.75s ease;
+    transition: all 0.50s ease;
 }
 
 #resume-buttons {

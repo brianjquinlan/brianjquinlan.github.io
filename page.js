@@ -14,3 +14,21 @@
 	}
 	});
 
+    
+    //close navbar after a selection
+    $('.navbar-nav a').click(function(){
+	$('.collapse').collapse('hide');
+    });
+
+    
+    //smaller icons for phones 
+    if (document.documentElement.clientWidth < 500) {
+        var phone = document.getElementById('phone');
+    	phone.src = 'media/icons/phone-sm.png';
+
+	var email = document.getElementById('email');
+	email.src = 'media/icons/email-sm.png';
+
+	var github = document.getElementById('github');
+	github.src = 'media/icons/github-sm.png';
+    }

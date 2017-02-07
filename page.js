@@ -20,14 +20,17 @@
         $('.collapse').collapse('hide');
     });
 
-    //smaller icons for phones 
+    //strip text off links for phones 
     if (document.documentElement.clientWidth < 500) {
-        var phone = document.getElementById('phone');
-        phone.src = 'media/icons/phone-sm.png';
+        var phone = document.getElementById('phone-link');
+        //phone.src = 'media/icons/phone-sm.png';
+	phone.innerHTML = '<img id="phone" src="media/icons/phone.png">';
 
-        var email = document.getElementById('email');
-	email.src = 'media/icons/email-sm.png';
+        var email = document.getElementById('email-link');
+	//email.src = 'media/icons/email-sm.png';
+	email.innerHTML = '<img id="email" src="media/icons/email.png">';
 
-	var github = document.getElementById('github');
-	github.src = 'media/icons/github-sm.png';
+	var github = document.getElementById('github-link');
+	//github.src = 'media/icons/github-sm.png';
+	github.innerHTML = '<img id="github" src="media/icons/github.png">';
     }

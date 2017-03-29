@@ -111,7 +111,7 @@ a:hover {
 
 .portrait {
     background: url(media/headshot.jpg);
-    transform: rotate(90deg);
+    /*transform: rotate(90deg);*/
     border-radius: 150px;
     margin: 0 auto;
     background-size:cover; 

@@ -50,33 +50,33 @@
                 
             </div>
         </div>
-        <div class="container content">
+        <div class="container-fluid content fix-width">
+            <div class="">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-12">
-                    <h1><a id="about"></a></h1>
-                    <p> 
+                <div class="col-md-10">
+                    <a id="about"></a>
+                    <h2> 
                         I am a current grad student at Lewis University for Data Science.  Exploring
                         and Experimenting with data is what I do.  
-                    </p>
-                    </div>
+                    </h2>
+                    
                 </div>
                 
-                <br />
-                <br />
+                <div class="col-md-10">
+                        <br />
+                        <br />
 
-                <div class="col-md-12 ">
-                    <div class="col-md-12">
                         <p>
-                        I mainly use Python for both data analysis (scikit-learn, pandas, etc..) and 
-                        web development (Django).
+                        I mainly use Python for both data analysis (scikit-learn, pandas, etc..) 
+                        and web development (Django).
                         
                         <br />
+                        <br />
+
 
                         I have used R and also software such as Orange
                         Canvas or Weka but like the flow of using a Jupyter notebook with Python.
                         </p>
-                    </div>
                 </div>
             </div>
             <div class="row">
@@ -85,41 +85,41 @@
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
         
-        
-        <div id="projects-container" class="container-fluid">
-            <h1 id="projects"> Web Projects </h1>
-            <div class="row content">
+        <div id="projects-container">
+            <h2 id="projects"> Web Projects </h2>
+            <div class="row">
 
 		
-                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 box-spacer">
+                <div class="col-xs-12 col-sm-12 col-md-6 box-spacer">
                     <div id="rec-sports" class="col-md-12 content-box">
-			<a id="project-1" data-toggle="modal" data-target="#first-project">
+			        <a id="project-1" data-toggle="modal" data-target="#first-project">
                         <h1> Rec League Stats </h1>
-			</a>
+			        </a>
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 box-spacer">
+                <div class="col-xs-12 col-sm-12 col-md-6 box-spacer">
 		    
                     <div id="sen-project" class="col-md-12 content-box">
-		    	<a id="senior-project" data-toggle="modal" data-target="#senior-project-modal"> 
-			<h1> Senior Project </h1>
-			</a>
+		    	    <a id="senior-project" data-toggle="modal" data-target="#senior-project-modal"> 
+			            <h1> Senior Project </h1>
+			        </a>
                     </div>
                 </div>
 		
 
 		
-                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 box-spacer">
+                <div class="col-xs-12 col-sm-12 col-md-6 box-spacer">
                     <div id="profolio-project" class="col-md-12 content-box">
-			<a id="portfolio" data-toggle="modal" data-target="#portfolio-modal"> 
+			        <a id="portfolio" data-toggle="modal" data-target="#portfolio-modal"> 
                     	<h1> Portfolio Page </h1>
-			</a>
+			        </a>
                     </div>
                 </div>
             </div>
+
             <div id="resume-buttons" class="row">
                 <a class="resume-button" href="Resources/resume.pdf" download> download resum&egrave; </a>
                 <a class="resume-button" href="Resources/resume.pdf" > view resum&egrave; </a>
@@ -220,9 +220,12 @@
                 </div>
             </div>
         </div>
+        </div>
+
 
     	<footer class="footer">
-    	    <h1 id="contact-title"> Contact Me </h1>
+            <div class="container-fluid fix-width">
+            <h2 id="contact-title"> Contact Me </h2>
             <div class="row-fluid contact">
             	<div class="col-xs-4 col-sm-12 col-md-4">
                 	<a id="phone-link" class="contacts" href="tel:17086981926"><img id="phone" src="media/icons/phone.png">
@@ -236,6 +239,7 @@
                 	<a id="github-link" class="contacts" href="https://github.com/brianjquinlan">
                 	<img id="github" src="media/icons/github.png"> github.com/brianjquinlan </a>
             	</div>
+            </div>
             </div>
     	</footer>
 

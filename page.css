@@ -12,7 +12,7 @@ body {
 }
 
 p {
-    font-size:30px;
+    font-size:25px;
 }
 
 a {
@@ -38,8 +38,9 @@ a:hover {
 
 #contact-title {
     padding-top: 10px;
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    font-size: 35px;
+    color: #6B7A8F;
 }
 
 .contact {
@@ -130,13 +131,14 @@ a:hover {
 
 #projects {
     padding-top: 20px;
-    text-align: center;
-    font-size: 50px;
-    color:#fff;
+    text-align: left;
+    font-size: 35px;
+    color: #6B7A8F;
 }
 
 #projects-container {
     background: #30415D;
+    background: #E9E9E9;
 }
 
 #project-1, #senior-project, #portfolio {
@@ -162,7 +164,7 @@ a:hover {
 }
 
 .content {
-    padding: 90px 20px 30px 20px;
+    padding: 20px 20px 30px 20px;
 }
 
 .box-spacer {
@@ -173,7 +175,7 @@ a:hover {
 .content-box {
     color:#E9E9E9;	
     height: 300px;
-    max-width:500px;
+    max-width:600px;
     padding-top: 10px;
     box-shadow: -2px 2px 4px #000000;
 }
@@ -246,9 +248,19 @@ a:hover {
     }
     
     .content {
-        padding: 90px 0px 30px 0px;
+        padding: 70px 5px 30px 5px;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+    .fix-width {
+        width: 1200px;
+    }
+
+    .content-box {
+        height: 375px;
+    }
 }
 
 @media only screen and (min-width: 500px) and (max-width:767px) {

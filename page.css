@@ -207,8 +207,8 @@ a:hover {
 }
 
 .resume-button:hover {
-    background: #000000;
-    color: #E9E9E9;
+    color: #000000;
+    background: #E9E9E9;
     border: 1px solid #E9E9E9;
     transition: all 0.50s ease;
 }

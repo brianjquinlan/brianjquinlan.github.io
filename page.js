@@ -23,7 +23,9 @@
             $('.collapse').collapse('hide');
         });
     })();
+    
 
+    /*
     //strip text off links for phones
     (function () {
         if (document.documentElement.clientWidth < 500) {
@@ -40,3 +42,4 @@
 	        github.innerHTML = '<img id="github" src="media/icons/github.png">';
         }
     })();
+    */

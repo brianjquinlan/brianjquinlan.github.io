@@ -44,9 +44,9 @@ a:hover {
 }
 
 .contact {
-    display:inline-block;
     padding-top:20px;
     font-size: 30px;
+    text-align: left;
 }
 
 .contacts {
@@ -63,8 +63,7 @@ a:hover {
 }
 
 .contacts:hover {
-    color: #E9E9E9;
-    background:#30415D;
+    color: #6B7A8F;
     transition: all 0.30s ease;
 }
 .nav-style {

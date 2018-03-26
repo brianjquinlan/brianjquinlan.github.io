@@ -140,14 +140,14 @@ a:hover {
     background: #E9E9E9;
 }
 
-#project-1, #senior-project, #portfolio {
+#project-1, #senior-project, #portfolio, #datascience {
     color: #E9E9E9;
     display:block;
     height: 100%;
 	
 }
 
-#project-1, #senior-project, #portfolio:hover {
+#project-1, #senior-project, #portfolio, #datascience:hover {
     cursor: pointer;
 
 }
@@ -193,6 +193,13 @@ a:hover {
     background: url(media/portfolio-showcase.png) center;
     background-size: cover;
 }
+
+#datascience-project {
+	background: url(media/datascience-showcase.png) center;
+	background-size: cover;
+	
+}
+
 
 .resume-button {
     border-radius: 6px;

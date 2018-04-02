@@ -8,11 +8,16 @@ body {
     color:#000000;
     background: #E9E9E9;
     margin-bottom: 250px;
+    letter-spacing: 0.7px;
     min-height: 100%;
 }
 
+h4 {
+    line-height: 1.5;
+}
+
 p {
-    font-size:25px;
+    font-size:22px;
 }
 
 a {
@@ -246,7 +251,11 @@ a:hover {
     }
     
     h3 {
-	font-size: 20px;
+	    font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 
     p {
@@ -269,6 +278,14 @@ a:hover {
     }
 }
 
+@media only screen and (min-width: 500px) and (max-width:1350px) {
+    .about-spacing {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
 @media only screen and (min-width: 500px) and (max-width:767px) {
     .footer {
         text-align: left;
@@ -277,5 +294,6 @@ a:hover {
     .contacts {
 	text-align: left;
     }
+    
 
 }

@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Nunito Sans', sans-serif;
     color:#000000;
-    background: #E9E9E9;
+    background: #FBFCFC;
     margin-bottom: 250px;
     letter-spacing: 0.7px;
     min-height: 100%;
@@ -14,10 +14,11 @@ body {
 
 h4 {
     line-height: 1.5;
+    font-size:22px;
 }
 
 p {
-    font-size:22px;
+    font-size:19px;
 }
 
 a {
@@ -31,21 +32,13 @@ a:hover {
 
 
 .footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
-    background: #E9E9E9;
+    background: #FBFCFC;
     color:#000000;
-    height: 250px;
-    padding: 20px 20px 20px 20px;
+    height: 80px;
+    padding: 10% 18% 5px 18%;
     text-align: center;
-}
-
-#contact-title {
-    padding-top: 10px;
-    text-align: left;
-    font-size: 35px;
-    color: #6B7A8F;
 }
 
 .contact {
@@ -60,7 +53,7 @@ a:hover {
     color: #000000;
     padding: 10px 15px;
     font-size: .5em;
-    background: #E9E9E9;
+    background: #FBFCFC;
     margin:0px;
     font-weight: 600;
     text-align: center;
@@ -71,54 +64,29 @@ a:hover {
     color: #6B7A8F;
     transition: all 0.30s ease;
 }
-.nav-style {
-    color:#fff;
-    background: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    transition: all 0.25s ease;
+
+.page-section {
+   padding: 1% 25% 4% 25%;
+   text-align: center;
+   font-size: 25px;
 }
 
-.nav {
-    color: #fff;
-}
-
-.after-header {
-    background: #000000;
-}
-
-.nav-menu, #button {
-    padding-top: 0px;
-    font-size: 25px;
-    letter-spacing: .5px;
-    text-transform: uppercase;
-    list-style: none;
-}
-
-@media (min-width:48em) {
-    .nav-menu li {
-        display: inline;
-    }
-}
-
-.nav:hover, #button:hover {
-    color: #C71F1F;
+.page-links {
 
 }
 
-#header-bg {
-    background: url(media/programming2.jpg) no-repeat;
+#header-bg { 
     background-position: center top;
     background-size: cover;
-    height: 550px;
-    padding: 150px 10% 0px 10%;
+    padding: 8% 10% 9% 10%;
 }
 
 .portrait {
-    background: url(media/headshot5.jpg) no-repeat;
+    background: url(media/headshot5.png) no-repeat;
     /*transform: rotate(90deg) */ 
     border-radius: 50%; 
     margin: 0 auto; 
+    margin-bottom: 10px;
     background-size:cover; 
     height: 275px;
     width: 275px;
@@ -126,113 +94,14 @@ a:hover {
 
 .header {
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
 
 #name {
-    font-size: 60px;
-}
-
-#projects {
-    padding-top: 20px;
-    text-align: left;
-    font-size: 35px;
-    color: #6B7A8F;
-}
-
-#projects-container {
-    background: #30415D;
-    background: #E9E9E9;
-}
-
-#project-1, #senior-project, #portfolio, #datascience {
-    color: #E9E9E9;
-    display:block;
-    height: 100%;
-	
-}
-
-#project-1, #senior-project, #portfolio, #datascience:hover {
-    cursor: pointer;
-
-}
-.parallax {
-    background: url(media/parallax.jpg) no-repeat top center fixed;
-    background-size: cover;
-    height: 200px;   
-    margin: 0;
-    padding 0;
-    color:#fff;
-    text-align: center;
-
-}
-
-.content {
-    padding: 20px 20px 30px 20px;
-}
-
-.box-spacer {
-    padding-top: 15px;
-    text-align:center;
-}
-
-.content-box {
-    color:#E9E9E9;	
-    height: 300px;
-    max-width:600px;
-    padding-top: 10px;
-    box-shadow: -2px 2px 4px #000000;
-}
-
-#rec-sports {
-    background: url(media/rec-sports-showcase.png) center;
-    background-size: cover;
-}
-
-#sen-project {
-    background: url(media/will-grundy.png) center;
-    background-size: cover;
-}
-
-#profolio-project {
-    background: url(media/portfolio-showcase.png) center;
-    background-size: cover;
-}
-
-#datascience-project {
-	background: url(media/datascience-showcase.png) center;
-	background-size: cover;
-	
+    font-size: 30px;
 }
 
 
-.resume-button {
-    border-radius: 6px;
-    color: #fff;
-    font-weight: 400;
-    padding: 20px 30px;
-    margin: 10px;
-    font-size: 1em;
-    text-transform: uppercase;
-    background: #6B7A8F;
-    border: 1px solid #E9E9E9;
-    display:inline-block;
-}
-
-.resume-button:hover {
-    color: #000000;
-    background: #E9E9E9;
-    border: 1px solid #E9E9E9;
-    transition: all 0.50s ease;
-}
-
-#resume-buttons {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin: 0;
-    text-align: center;
-
-}
 @media only screen and (max-width: 500px) {
     .nav-menu {
         font-size: 20px;
@@ -288,12 +157,138 @@ a:hover {
 
 @media only screen and (min-width: 500px) and (max-width:767px) {
     .footer {
-        text-align: left;
+        text-align: center;
     }
 
     .contacts {
-	text-align: left;
+	text-align: center;
     }
     
 
 }
+
+
+/*
+
+#projects {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 35px;
+    color: #6B7A8F;
+}
+
+#projects-container {
+    background: #30415D;
+    background: #FBFCFC;
+}
+
+#project-1, #senior-project, #portfolio, #datascience {
+    color: #E9E9E9;
+    display:block;
+    height: 100%;
+	
+}
+
+#project-1, #senior-project, #portfolio, #datascience:hover {
+    cursor: pointer;
+
+}
+
+
+.content {
+    padding: 20px 20px 30px 20px;
+}
+
+.box-spacer {
+    padding-top: 15px;
+    text-align:center;
+}
+
+.content-box {
+    color:#E9E9E9;	
+    height: 300px;
+    max-width:600px;
+    padding-top: 10px;
+    box-shadow: -2px 2px 4px #000000;
+}
+
+
+.parallax {
+    background: url(media/parallax.jpg) no-repeat top center fixed;
+    background-size: cover;
+    height: 200px;   
+    margin: 0;
+    padding 0;
+    color:#fff;
+    text-align: center;
+
+}
+
+
+.resume-button {
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 400;
+    padding: 20px 30px;
+    margin: 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+    background: #6B7A8F;
+    border: 1px solid #E9E9E9;
+    display:inline-block;
+}
+
+.resume-button:hover {
+    color: #000000;
+    background: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    transition: all 0.50s ease;
+}
+
+#resume-buttons {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.nav-style {
+    color:#fff;
+    background: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    transition: all 0.25s ease;
+}
+
+.nav {
+    color: #fff;
+}
+
+.after-header {
+    background: #000000;
+}
+
+.nav-menu, #button {
+    padding-top: 0px;
+    font-size: 25px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+@media (min-width:48em) {
+    .nav-menu li {
+        display: inline;
+    }
+}
+
+.nav:hover, #button:hover {
+    color: #C71F1F;
+
+}
+
+
+
+
+*/

@@ -65,6 +65,11 @@ a:hover {
     transition: all 0.30s ease;
 }
 
+.title {
+   padding: 10% 10% 2% 10%;
+   font-size: 25px;
+}
+
 .page-section {
    padding: 1% 25% 4% 25%;
    text-align: center;
